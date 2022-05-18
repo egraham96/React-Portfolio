@@ -6,7 +6,6 @@ import './projects.css';
 import ShopMyCloset from '../../assets/ShopMyCloset.PNG';
 import FitnessTracker from '../../assets/FitnessTracker.PNG'
 import WhereToStream from '../../assets/WhereToStream.PNG'
-import Placeholder from '../../assets/Placeholder.png'
 import tripPlanner from '../../assets/tripPlanner.png'
 
 
@@ -27,7 +26,7 @@ function Projects() {
             <div className='card-container'>
                 {projects.map(project => (
                     <div className='card'>
-                        <img src={project.img}/>
+                        <img src={project.img} alt={project.img}/>
                         <h3>{project.title}</h3>
                         <a href={project.repo}>GitHub Repo</a>
                         <a href={project.site}>{project.site == 'Coming Soon' ? <p>Coming Soon</p> : <p>Deployed App</p>}</a>

@@ -8,7 +8,7 @@ function About() {
         {name: 'LinkedIn', value: 'https://linkedin.com/in/emmagraham96', img:"https://img.icons8.com/fluency/48/000000/linkedin.png"},
         {name: 'GitHub', value: 'https://github.com/egraham96', img: "https://img.icons8.com/fluency/48/000000/github.png"},
         {name: 'eegraham4@gmail.com', value: 'mailto:eegraham4@gmail.com', img:'https://img.icons8.com/emoji/48/000000/e-mail.png'},
-        {name: '206.947.5976', value: 'tel:2069475976', img: '"https://img.icons8.com/ultraviolet/40/000000/phone.png"'}
+        {name: '206.947.5976', value: 'tel:2069475976', img: 'https://img.icons8.com/fluency/48/000000/phone.png'}
     ])
 
     const imgs = ['https://images.unsplash.com/photo-1504333638930-c8787321eee0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80', 'https://images.unsplash.com/photo-1487235829740-e0ac5a286e1c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1496&q=80', 'https://images.unsplash.com/photo-1531707640331-138af9bef850?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1500&q=80']
@@ -22,7 +22,7 @@ function About() {
                     {contact.map(item => (
                         <span>
 
-                        <a href={item.value}><img src={item.img}/></a>
+                        <a href={item.value}><img src={item.img} alt={item.img}/></a>
                         <p>{item.name}</p>
                         </span>
                     ))}
