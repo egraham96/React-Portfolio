@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap');
+
+#projects h2 {
+    font-family: 'Crimson Text', serif;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 64px;
+    margin-bottom: -35px;
+}
+
+.card-container {
+    background-image: url(https://images.unsplash.com/photo-1467685790346-20bfe73a81f0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80);
+    background-attachment: fixed;
+    background-repeat: none;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: whitesmoke;
+}
+
+.card-container .card {
+    background-color: rgba(46, 30, 138, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 35%;
+    margin: 15px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .2);
+}
+
+.card-container .card h3 {
+    font-family: 'Cinzel', serif;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.card-container .card img {
+    border: none;
+    width: 100%;
+}
+
+.card-container .card a {
+    color: whitesmoke;
+}
+
+.card:hover {
+    box-shadow: 0 8px 12px 0 rgba(116, 41, 255, 0.35);
+}
+
+@media (max-width: 415px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .card-container .card {
+        width: 90%;
+        margin: 5%;
+    }
+}

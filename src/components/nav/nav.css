@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap');
+ #nav {
+	 display: flex;
+	 flex-direction: row;
+}
+ #nav img {
+	 width: 24px;
+	 height: 24px;
+	 margin-top: 10px;
+}
+ #nav p {
+	 margin: 10px;
+	 outline: none;
+	 font-family: 'Crimson Text', serif;
+}
+ #nav p a {
+	 color: white;
+	 outline: none;
+}

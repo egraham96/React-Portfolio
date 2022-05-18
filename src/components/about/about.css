@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&display=swap');
+
+#container {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Crimson Pro', serif;
+}
+
+#container img {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    border: 4px solid white;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact span {
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+    margin-bottom: -20px;
+}
+
+#contact span img {
+    margin-top: 15px;
+    height: 30px;
+    width: 30px;
+    border: none;
+}
+
+#contact span p {
+    margin-left: 10px;
+}
+
+#about {
+    min-width: 400px;
+    max-width: 1000px;
+    margin-left: 25px;
+    font-size: 16px;
+}
+
+#blurb {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    max-width: 85%;
+}
+
+#blurb h4 {
+    font-size: 24px;
+}
+
+#skills {
+    display: flex;
+    flex-direction: row;
+}
+
+#skills span {
+    margin: 10px;
+}
+
+#decor {
+    display: flex;
+    flex-direction: column;
+}
+
+#decor img {
+    margin: 15px;
+    border: 1px solid white;
+    width: 85px;
+    height: 85px;
+}
+
+@media (max-width: 415px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    #container {
+        margin-top: 50px;
+        margin-left: 15px;
+        margin-bottom: 15px;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        color: white;
+        font-family: 'Crimson Pro', serif;
+    }
+
+    #container img {
+        border-radius: 50%;
+        height: 150px;
+        width: 150px;
+        border: 4px solid white;
+    }
+
+    #blurb {
+        margin: 5%;
+    }
+
+    #skills {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 5%;
+        width: 85%;
+    }
+
+    #skills span {
+        margin: 5px;
+    }
+
+    #decor {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #decor img {
+        margin: 15px;
+        border: 1px solid white;
+        width: 85px;
+        height: 85px;
+    }
+
+    #education {
+        width: 85%;
+        margin: 5%;
+    }
+}
