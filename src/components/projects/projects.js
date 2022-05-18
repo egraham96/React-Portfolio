@@ -26,7 +26,7 @@ function Projects() {
             <div className='card-container'>
                 {projects.map(project => (
                     <div className='card'>
-                        <img src={project.img} alt={project.img}/>
+                        <img class="card-image" src={project.img} alt={project.img}/>
                         <h3>{project.title}</h3>
                         <a href={project.repo}>GitHub Repo</a>
                         <a href={project.site}>{project.site == 'Coming Soon' ? <p>Coming Soon</p> : <p>Deployed App</p>}</a>
