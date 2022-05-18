@@ -34,8 +34,10 @@ function Projects() {
                         <p>Technologies Used: <br/> {project.tools}</p>
                     </div>
                 ))}
-            </div>
-            <p>Please see my <a href="https://github.com/egraham96">github</a> for more projects</p>
+                </div>
+        <div id="projects-footer">
+        <p>Please see my <a href="https://github.com/egraham96">Github</a> for more projects!</p>
+        </div>
         </div>
         </>
     )

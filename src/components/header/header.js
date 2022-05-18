@@ -9,8 +9,8 @@ function Header() {
            <h2>PORTFOLIO</h2>
             </span>
             <p>
-            ❝CREATIVITY IS A WILD MIND AND A DISCIPLINED EYE.❞ 
-            <br/> - HENRY MATISSE
+            ❝ENERGY AND PERSISTENCE CONQUER ALL THINGS.❞ 
+            - BENJAMIN FRANKLIN
             </p>
         </div>
         </>

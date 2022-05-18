@@ -139,4 +139,8 @@
         width: 85%;
         margin: 5%;
     }
+
+    #education-p {
+        font-weight:bold;
+    }
 }

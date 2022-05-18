@@ -1,5 +1,8 @@
 import './about.css';
 import picture from '../../assets/picture.jpg';
+import code from '../../assets/code.jpg';
+import code2 from '../../assets/code2.jpg';
+import code3 from '../../assets/code3.jpg';
 import { useState } from 'react';
 
 
@@ -11,7 +14,7 @@ function About() {
         {name: '206.947.5976', value: 'tel:2069475976', img: 'https://img.icons8.com/fluency/48/000000/phone.png'}
     ])
 
-    const imgs = ['https://images.unsplash.com/photo-1504333638930-c8787321eee0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80', 'https://images.unsplash.com/photo-1487235829740-e0ac5a286e1c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1496&q=80', 'https://images.unsplash.com/photo-1531707640331-138af9bef850?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1500&q=80']
+    const imgs = [code2, code3, code ]
 
 
     return(
@@ -53,7 +56,7 @@ function About() {
 
                 </div>
                 <div id='education'>
-                    <p>Education:</p>
+                    <p id="education-p">Education:</p>
                     <p>University of Washington Professional and Continuing Education / Seattle, WA / June 2021 - Jan 2022
                         <br /> Certification in Full Stack Web Development
                     </p>
@@ -64,7 +67,7 @@ function About() {
             </div>
             <div id='decor'>
                 {imgs.map(img => (
-                    <img src={img} img alt={img}/>
+                    <img src= {img} alt={img} key={img}/>
                 ))}
             </div>
         </div>
