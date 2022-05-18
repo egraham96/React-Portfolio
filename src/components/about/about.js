@@ -25,8 +25,9 @@ function About() {
                     {contact.map(item => (
                         <span>
 
-                        <a href={item.value}><img src={item.img} alt={item.img}/></a>
-                        <p>{item.name}</p>
+                        <a href={item.value}><img src={item.img} alt={item.img}/>
+                        </a>
+                        <p><a href={item.value}>{item.name}</a></p>
                         </span>
                     ))}
             </div>
