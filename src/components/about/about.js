@@ -8,7 +8,7 @@ import { useState } from 'react';
 
 function About() {
     const [contact, setContact] = useState([
-        {name: 'LinkedIn', value: 'https://linkedin.com/in/emmagraham96', img:"https://img.icons8.com/fluency/48/000000/linkedin.png"},
+        {name: 'LinkedIn', value: 'https://linkedin.com/in/emmag96', img:"https://img.icons8.com/fluency/48/000000/linkedin.png"},
         {name: 'GitHub', value: 'https://github.com/egraham96', img: "https://img.icons8.com/fluency/48/000000/github.png"},
         {name: 'eegraham4@gmail.com', value: 'mailto:eegraham4@gmail.com', img:'https://img.icons8.com/emoji/48/000000/e-mail.png'},
         {name: '206.947.5976', value: 'tel:2069475976', img: 'https://img.icons8.com/fluency/48/000000/phone.png'}
