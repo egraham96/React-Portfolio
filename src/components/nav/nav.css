@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400&display=swap');
+
  #nav {
 	 display: flex;
 	 flex-direction: row;
@@ -11,7 +13,7 @@
  #nav p {
 	 margin: 10px;
 	 outline: none;
-	 font-family: 'Crimson Text', serif;
+	 font-family: 'Montserrat', serif;
 }
  #nav p a {
 	 color: white;

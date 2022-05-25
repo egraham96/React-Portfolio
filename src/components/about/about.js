@@ -42,28 +42,27 @@ function About() {
                 </div>
                 <div id='skills'>
                     <span>
-                        <p>➥ Languages:</p>
+                        <p><b>➥ Languages:</b></p>
                         <p>JavaScript/Typescript, HTML, CSS, PHP (beginner), Python(beginner)</p>
                     </span>
                     <span>
-                        <p>➥ Frameworks & Libraries:</p>
-                        <p>NodeJS, ReactJS, Redux, React Native, jQuery, Express, PostgreSQL, MongoDB, Angular</p>
+                        <p><b>➥ Frameworks & Libraries:</b></p>
+                        <p>NodeJS, ReactJS, React Native, Redux, Vue, Angular, jQuery, Express, PostgreSQL, MongoDB,</p>
                     </span>
 
                     <span>
-                        <p>➥ Tools:</p>
+                        <p><b>➥ Tools:</b></p>
                         <p>Git, GitHub, VS Code, AWS (Elastic Beanstalk, S3 Buckets, Lambda Functions), Firebase (Authentication, Realtime Database, Cloudstore Database)</p>
                     </span>
 
                 </div>
                 <div id='education'>
-                    <p id="education-p">Education:</p>
-                    <p>University of Washington Professional and Continuing Education / Seattle, WA / June 2021 - Jan 2022
-                        <br /> Certification in Full Stack Web Development
-                    </p>
-                    <p>University of Washington / Seattle, WA / Sept 2015 - December 2019
-                        <br /> Dual Degree in Political Economy and Law, Societies and Justice
-                    </p>
+                    <p><b>Education:</b></p>
+                    <p><u>University of Washington Professional and Continuing Education / Seattle, WA / June 2021 - Jan 2022</u></p>
+                        <p> Certification in Full Stack Web Development</p>
+                        <br></br>
+                    <p><u>University of Washington / Seattle, WA / Sept 2015 - December 2019</u></p>
+                        <p> Dual Degree in Political Economy and Law, Societies and Justice</p>
                 </div>
             </div>
             <div id='decor'>
