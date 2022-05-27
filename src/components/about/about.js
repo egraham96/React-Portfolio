@@ -43,7 +43,7 @@ function About() {
                 <div id='skills'>
                     <span>
                         <p><b>➥ Languages:</b></p>
-                        <p>JavaScript/Typescript, HTML, CSS, PHP (beginner), Python(beginner)</p>
+                        <p>JavaScript/Typescript, HTML, CSS, PHP, Python(beginner)</p>
                     </span>
                     <span>
                         <p><b>➥ Frameworks & Libraries:</b></p>
