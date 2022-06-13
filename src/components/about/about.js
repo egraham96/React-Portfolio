@@ -47,7 +47,7 @@ function About() {
                     </span>
                     <span>
                         <p><b>➥ Frameworks & Libraries:</b></p>
-                        <p>NodeJS, ReactJS, React Native, Redux, Vue, Angular, jQuery, Express, PostgreSQL, MongoDB,</p>
+                        <p>NodeJS, ReactJS, React Native, Redux, Vue, Angular, jQuery, Express, PostgreSQL, mySQL, MongoDB</p>
                     </span>
 
                     <span>
