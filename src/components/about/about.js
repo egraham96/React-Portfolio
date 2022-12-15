@@ -58,7 +58,7 @@ function About() {
                 </div>
                 <div id='education'>
                     <p><b>Education:</b></p>
-                    <p><u>University of Washington Professional and Continuing Education / Seattle, WA / June 2021 - Jan 2022</u></p>
+                    <p><u>University of Washington Professional and Continuing Education / Seattle, WA / June 2021 - January 2022</u></p>
                         <p> Certification in Full Stack Web Development</p>
                         <br></br>
                     <p><u>University of Washington / Seattle, WA / Sept 2015 - December 2019</u></p>
