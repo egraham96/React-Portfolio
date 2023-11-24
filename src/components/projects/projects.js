@@ -5,7 +5,7 @@ import ShopMyCloset from '../../assets/ShopMyCloset.PNG';
 import FitnessTracker from '../../assets/FitnessTracker.PNG';
 import WhereToStream from '../../assets/WhereToStream.PNG';
 //import Placeholder from '../../assets/Placeholder.png'
-import TranslateThis from '../../assets/TranslateThis.png';
+import TranslateThis from '../../assets/TranslateThis.PNG';
 import HRPortal from '../../assets/HRPortal.PNG';
 import EnergyManager from '../../assets/EnergyManager.PNG'
 
