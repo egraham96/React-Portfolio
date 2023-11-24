@@ -21,7 +21,7 @@ function About() {
         <>
         <div id='container'>
             <div id='contact'>
-                 <img src={picture} img alt={picture} />
+                 <img src={"emma.jpg"} img alt={"emma"} />
                     {contact.map(item => (
                         <span>
 
@@ -42,17 +42,25 @@ function About() {
                 </div>
                 <div id='skills'>
                     <span>
-                        <p><b>➥ Languages:</b></p>
-                        <p>JavaScript/Typescript, Python, PHP, HTML, CSS</p>
+                        <p><b>➥ Programming Languages:</b></p>
+                        <p>JavaScript/Typescript, Java, Python, PHP, HTML, CSS</p>
                     </span>
                     <span>
-                        <p><b>➥ Frameworks & Libraries:</b></p>
-                        <p>NodeJS, ReactJS, React Native, Redux, Vue, Angular, jQuery, Express, PostgreSQL, mySQL, MongoDB</p>
+                        <p><b>➥ Front-End Development:</b></p>
+                        <p>HTML, CSS, ReactJS, React Native, Redux, Vue, Angular, jQuery, Next.js</p>
+                    </span>
+                    <span>
+                        <p><b>➥ Back-End Development:</b></p>
+                        <p>Node.js, Express.js, Spring, SpringBoot, Django, Flask</p>
+                    </span>
+                    <span>
+                        <p><b>➥ Databases:</b></p>
+                        <p>Amazon RDS (MySQL, PostgreSQL, MariaDB, Oracle, SQL Server), Amazon DynamoDB (NoSQL), MongoDB(NoSQL), Snowflake(SQL)</p>
                     </span>
 
                     <span>
-                        <p><b>➥ Tools:</b></p>
-                        <p>Git, GitHub, VS Code, AWS (Elastic Beanstalk, S3 Buckets, Lambda Functions), Firebase (Authentication, Realtime Database, Cloudstore Database)</p>
+                        <p><b>➥Cloud Platforms:</b></p>
+                        <p>AWS (Elastic Beanstalk, S3 Buckets, Lambda Functions), Google Cloud Platforms</p>
                     </span>
 
                 </div>

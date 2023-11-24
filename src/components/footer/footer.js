@@ -4,7 +4,7 @@ function Footer() {
     return(
         <>
         <div id='footer'>
-            <p>Emma Graham © 2022. </p>
+            <p>Emma Graham © 2023. </p>
         </div>
         </>
     )
