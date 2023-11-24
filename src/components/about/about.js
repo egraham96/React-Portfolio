@@ -35,7 +35,7 @@ function About() {
                 <div id='blurb'>
 
                     <span>
-                    <h4>Are you seeking a full-stack JavaScript developer? </h4>
+                    <h4>Are you seeking a junior developer? </h4>
                     <p>Hi, I'm Emma. I'm a 2019 University of Washington graduate who recently went back to UW to complete a Full Stack Coding Bootcamp. I specialize in full stack JavaScript development. I love creating web applications because web development is the perfect union between my two passions of creativity and critical problem solving.  </p>
                     </span>
                     
