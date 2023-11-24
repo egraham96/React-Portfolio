@@ -1,5 +1,5 @@
 import './about.css';
-import picture from '../../assets/picture.jpg';
+import emma from '../../assets/emma.jpg';
 import code from '../../assets/code.jpg';
 import code2 from '../../assets/code2.jpg';
 import code3 from '../../assets/code3.jpg';
@@ -21,7 +21,7 @@ function About() {
         <>
         <div id='container'>
             <div id='contact'>
-                 <img src={"emma.jpg"} img alt={"emma"} />
+                 <img src={emma} img alt={"emma graham"} />
                     {contact.map(item => (
                         <span>
 
