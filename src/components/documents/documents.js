@@ -23,8 +23,8 @@ function Documents() {
                 <h2>DOCUMENTS</h2>
                 <div className='card-container'>
                     {documents.map(document => (
-                        <div className='card'>
-                            <img class="card-image" src={document.img} alt={document.img} />
+                        <div className='card-document'>
+                            <img class="document-image" src={document.img} alt={document.img} />
                             <a href={document.link}>
                             <h3>{document.title}</h3></a>
                         </div>
