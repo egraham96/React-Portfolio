@@ -10,8 +10,6 @@ import Resume from '../../assets/ResumePDF.pdf';
 import CoverLetter from '../../assets/CoverLetterPDF.pdf'
 
 
-
-
 function Documents() {
     const documents = [
     { title: 'Resume', link: Resume, img: ResumeImg},
