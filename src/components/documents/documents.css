@@ -36,14 +36,14 @@
     margin: 15px;
     /*padding: 15px;*/
     box-shadow: 0 4px 8px rgba(116, 41, 255, 0.1);
-    font-family:'Lora', serif;
+    font-family: 'Lora', serif;
 }
 
 .card-container .card h3 {
     font-family: 'Lora';
     color: white;
     text-align: center;
-    font-weight:normal;
+    font-weight: normal;
 }
 
 
@@ -52,13 +52,13 @@
 }
 
 
-.card-image{
-    box-sizing:border-box;
+.card-image {
+    box-sizing: border-box;
     border: 4px solid white;
-    width:75px;
-    height:75px;
-    padding:0;
-    margin:0 auto;
+    width: 75px;
+    height: 75px;
+    padding: 0;
+    margin: 0 auto;
 }
 
 .card:hover {
