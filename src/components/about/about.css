@@ -52,7 +52,7 @@ color:white;
     min-width: 400px;
     max-width: 1000px;
     margin-left: 25px;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 #blurb {
@@ -64,7 +64,7 @@ color:white;
 }
 
 #blurb h4 {
-    font-size: 24px;
+    font-size: 30px;
 }
 
 #skills {
@@ -74,11 +74,20 @@ color:white;
 
 #skills span {
     margin: 10px;
+    font-size:14px;
+}
+
+#skills span .skills-header {
+    font-size:16px
 }
 
 
-#education li {
-    font-weight:bolder;
+#education {
+    font-size:16px;
+}
+
+.education-header {
+    font-size:18px;
 }
 
 #decor {
@@ -123,6 +132,14 @@ color:white;
     }
 
     #skills {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 5%;
+        width: 85%;
+    }
+
+    .education-header {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;

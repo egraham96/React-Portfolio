@@ -12,10 +12,10 @@ import CoverLetter from '../../assets/CoverLetterPDF.pdf'
 
 function Documents() {
     const documents = [
-    { title: 'Resume', link: Resume, img: ResumeImg},
-    { title: 'Cover Letter', link: CoverLetter, img:CoverLetterImg}
+        { title: 'Resume', link: Resume, img: ResumeImg },
+        { title: 'Cover Letter', link: CoverLetter, img: CoverLetterImg }
     ]
-       
+
 
     return (
         <>
@@ -26,7 +26,7 @@ function Documents() {
                         <div className='card-document'>
                             <img class="document-image" src={document.img} alt={document.img} />
                             <a href={document.link}>
-                            <h3>{document.title}</h3></a>
+                                <h3>{document.title}</h3></a>
                         </div>
                     ))}
                 </div>

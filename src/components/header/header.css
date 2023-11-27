@@ -1,50 +1,80 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
- body {
-	 background-color: black;
-	 overflow-x: hidden;
+body {
+	background-color: black;
+	overflow-x: hidden;
+	padding:0px;
+	margin: 0px;
 }
- .header {
-	 width: 100%;
-	 height: 750px;
-	 background-image: url('../../assets/seattle.jpg');
-	 background-position: center;
-	 background-repeat: no-repeat;
-	 background-size: cover;
-	 background-attachment: fixed;
-	 display: flex;
-	 justify-content: center;
-	 align-content: center;
-	 flex-direction: column;
+
+.header {
+	width: 100%;
+	height: 750px;
+	background-image: url('../../assets/seattle.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	margin: 0px;
+	padding: 0px;
+	display: flex; 
+	 align-content: space-between; 
+	flex-direction: column; 
 }
- .header h1 {
-	 color: white;
-	 font-family: 'Montserrat', serif;
-	 font-size: 100px;
-	 font-weight:bold;
-	 margin-bottom: -50px;
-	 margin-left: 50px;
+
+.header h1 {
+	color: white;
+	font-family: 'Montserrat', serif;
+	font-size: 100px;
+	font-weight: bold;
+	margin-left: 30px;
+	margin-bottom: 0px;
+	margin-top: 20px;
 }
- .header h2 {
-	 color: rgb(255, 41, 230);
-	 font-family: 'Montserrat', serif;
-	 font-size: 45px;
-	 margin-left: 50px;
-	 margin-bottom: -15px;
+
+.header h2 {
+	color: white;
+	font-family: 'Montserrat', serif;
+	font-size: 30px;
+	font-weight: 900;
+	margin-left: 570px;
+	margin-top: 500px;
+	margin-bottom: 0px;
 }
- .header p {
-	 color: white;
-	 margin-left: 50px;
-	 font-family: 'Montserrat', serif;
-	 font-size: 30px;
-	 font-weight:bold;
+
+.header #author {
+    color: white;
+	font-family: 'Montserrat', serif;
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: 670px;
+	margin-top: 0px;
 }
- @media (max-width: 415px) {
-	 .header {
-		 width: 100vw;
+
+@media (max-width: 415px) {
+	@media (max-width: 415px) {
+		.header {
+			height: auto; /* Adjust the height for smaller screens */
+			background-attachment: scroll; /* Optional: Change background attachment */
+		}
+	
+		.header h1 {
+			font-size: 26px; /* Adjusted for smaller screens */
+			margin-left: 10px; /* Reduced margin */
+			margin-top: 2px;
+		}
+	
+		.header h2 {
+			font-size: 10px; /* Adjusted for smaller screens */
+			margin-left: 95px; /* Align text with the h1 */
+			margin-top: 100px; /* Adjusted top margin */
+		}
+	
+		.header #author {
+			font-size: 6px; /* Adjusted for smaller screens */
+			margin-left: 180px; /* Align text with h1 and h2 */
+		}
 	}
-	 .header h1 {
-		 font-size: 75px;
-	}
+	
 }
