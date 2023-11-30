@@ -1,18 +1,18 @@
 import './documents.css';
 
 //Images of Documents
-// import ResumeImg from '../../assets/Resume.jpg';
+import ResumeImg from '../../assets/Resume.jpg';
 import CoverLetterImg from '../../assets/CoverLetter.jpg';
-//import Placeholder from '../../assets/Placeholder.png'
+import Placeholder from '../../assets/Placeholder.png'
 
 //Documents
-// import Resume from '../../assets/ResumePDF.pdf';
+import Resume from '../../assets/ResumePDF.pdf';
 import CoverLetter from '../../assets/CoverLetterPDF.pdf'
 
 
 function Documents() {
     const documents = [
-        // { title: 'Resume', link: Resume, img: ResumeImg },
+        { title: 'Resume', link: Resume, img: ResumeImg },
         { title: 'Cover Letter', link: CoverLetter, img: CoverLetterImg }
     ]
 
