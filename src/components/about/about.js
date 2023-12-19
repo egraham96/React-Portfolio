@@ -37,7 +37,7 @@ function About() {
                         <span>
                             <h4>Are you seeking a junior developer? </h4>
                             <p>Hi, I'm Emma, a fullstack developer eager to jump into a fun, challenging role in software development, where I can learn from my teammates and more seasoned developers to expand my technical skillset. </p>
-                            <p>My passion for software engineering lies in its unique combination of creativity and critical problem-solving. The most rewarding aspects of this transition have been the incredible people I've met who are eager to share their knowledge, coupled with the discipline I've developed along the way.</p>
+                            <p>My passion for software engineering lies in its unique combination of creativity and critical problem-solving. The most rewarding aspects of switching careers have been the incredible people I've met who are eager to share their knowledge, coupled with the discipline I've developed along the way.</p>
                         </span>
 
                     </div>
